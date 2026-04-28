@@ -4,22 +4,22 @@ cask "super_hooks" do
 
   on_macos do
     on_intel do
-      sha256 "e5805b9ebace256c9ad9bbd499f008aa0370d6cb1fc2a2390cee4d3bc12fa33d"
+      sha256 "5c15d4729220f0978177d5a39ad3ad7d35092caecde906a3589f9b1f16f16f02"
       url "https://github.com/frankywahl/super_hooks/releases/download/v#{version}/super_hooks_#{version}_macOS-64bit.tar.gz"
     end
     on_arm do
-      sha256 "12889be579298cd1ecc00f245c7603fc8326eb275834923bbc948a3fbf7e2bc7"
+      sha256 "d50275ab106f67ad6ff2d4b1b5f3f45466cb3b6f8b2fda34d96a06b036442212"
       url "https://github.com/frankywahl/super_hooks/releases/download/v#{version}/super_hooks_#{version}_macOS-arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "e450e0e37b5d80bdc538644535e73db9fb4f1df45cebe7dd0e6a9b499bc1a7af"
+      sha256 "9873f415471492690ece4a9d854e16008f07407f60d361562c2887c665bfe1c9"
       url "https://github.com/frankywahl/super_hooks/releases/download/v#{version}/super_hooks_#{version}_Linux-64bit.tar.gz"
     end
     on_arm do
-      sha256 "d3007681e0fa139fef720aceca4c85436d4aae62c2f8d32bf3782d51ebc8b9b3"
+      sha256 "4e797e50d0dfcef89271d1e7d99056dbc2647c4ad2c3385fe91eb64322736f9d"
       url "https://github.com/frankywahl/super_hooks/releases/download/v#{version}/super_hooks_#{version}_Linux-arm64.tar.gz"
     end
   end
